@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" class="ie ie6 no-js"><![endif]-->
+<!--[if IE 7 ]><html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" class="ie ie7 no-js"><![endif]-->
+<!--[if IE 8 ]><html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" class="ie ie8 no-js"><![endif]-->
+<!--[if IE 9 ]><html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" class="ie ie9 no-js"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!--<![endif]-->
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+
+    <script type="text/javascript">
+    //<![CDATA[
+        drex_file_name = "module_2_3_2_27_3_1.htm";
+    //]]>
+    </script>
+
+    		<title>NiBSPArrayController- notes</title>
+
+    <link rel="stylesheet" type="text/css" href="css/all.css" media="all" />
+    <link rel="stylesheet" href="de_style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="custom.css" type="text/css" media="all" />
+
+    <script type="text/javascript" src="js/all.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/drexplain.data.index.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/all2.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/oembed.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    //<![CDATA[
+        $(document).ready(function() {
+                $(".oembed").oembed(null,
+                        {
+                            embedMethod: "replace_with_new_size"
+                        });
+        });
+    //]]>
+    </script>
+                </head>
+<body class="b-body">
+<script type="text/javascript">
+//<![CDATA[
+    if (document.referrer == "" && navigator.userAgent == "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11")
+    {
+        var im = document.createElement("img");
+        im.src = "0";
+        document.body.appendChild(im);
+
+        $.drex_avoid_load = true;
+    }
+//]]>
+</script>
+<div class="b-pageLayout" id="pageLayout">
+<script type="text/javascript">
+//<![CDATA[
+    if ($.drex_avoid_load)
+        $("#pageLayout").addClass("hidden");
+    else if (1 == 1 && !is_touch_device())
+        $("#pageLayout").addClass("keep-visible");
+//]]>
+</script>
+        <div class="b-pageContent
+        m-pageContent__withoutHeader
+        m-pageContent__withoutLeft
+        m-pageContent__withoutRight
+        m-pageContent__withoutFooter
+" id="pageContent">
+            <table id="noscriptWarning" style="border-style: none; width: 100%; padding: 0; margin: 0; border-collapse: collapse;">
+                <tr style="border-style: none; width: 100%; padding: 0; margin: 0; border-collapse: collapse;">
+                    <td style="border-style: none; width: 100%; padding: 0; margin: 0; border-collapse: collapse;">
+                        <noscript><p>To properly display this page you need a browser with JavaScript support.</p></noscript>
+                    </td>
+                </tr>
+            </table>
+
+            <div class="b-tree m-tree__contextMenu" id="keywordContextMenu"><table class="b-tree__layout"><tr><td class="b-tree__layoutSide"></td></tr></table></div>
+            <table class="b-pageContent__layout">
+                <tr class="b-pageContent__row m-pageContent__row__header" id="pageContentHeader">
+                    <td class="b-pageContent__side m-pageContent__side__header">
+                                            </td>
+                </tr>
+                <tr>
+                    <td class="b-pageContent__side">
+                    <table id="internal_wrapper"><!-- internal_wrapper -->
+                        <tr>
+
+                    <td class="b-pageContent__side m-pageContent__side__left" id="pageContentLeft"></td>
+                    <td class="b-pageContent__side m-pageContent__side__middle" id="pageContentMiddle">
+                        <script type="text/javascript">
+                        //<![CDATA[
+                            if (1 == 1 && !is_touch_device())
+                                $("#pageContentMiddle").addClass("hidden");
+                        //]]>
+                        </script>
+                        <div class="b-workZone
+" id="workZone">
+                            <table class="b-workZone__layout">
+                                <tr>
+                                    <td class="b-workZone__side m-workZone__side__nav" id="workZone_nav">
+                                        <div class="b-workZone__content m-workZone__content__nav" id="workZone_nav_content">
+                                        <a href="#" class="b-workZone__side__nav__dismiss" id="dismissSideNavButton">&times;</a>
+                                        <div class="b-splitter" id="splitter">
+                                            <div class="b-splitter__innerPre">
+                                                <div class="b-splitter__inner">
+                                                    <div class="b-splitter__part m-splitter__part__mainImg"></div>
+                                                    <div class="b-splitter__part m-splitter__part__topImg"></div>
+                                                    <div class="b-splitter__part m-splitter__part__bottomImg"></div>
+                                                    <div class="b-splitter__part m-splitter__part__middleImg"></div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+<div class="b-tabs">
+
+
+
+                        <div class="b-tabs__selectorItems">
+
+                            <div class="b-tabs__selectorItem m-tabs__selectorItem__selected m-tabs__selectorItem__first" id="tabSelector_menu">
+                                <span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__menu"></span>
+                                <span class="b-tabs__selectorContent">Menu</span>
+                            </div>
+    
+    
+                            <div class="b-tabs__selectorItem m-tabs__selectorItem__unselected" id="tabSelector_search">
+                                <span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__search"></span>
+                                <span class="b-tabs__selectorContent">Search</span>
+                            </div>
+
+                        </div><!-- /b-tabs__selectorItems -->
+
+                        <div class="b-tabs__wrapperItems" id="tabWrapperItems">
+                        
+                            <div class="b-tabs__wrapperItem m-tabs__wrapperItem__selected" id="tabWrapper_menu">
+                                <div class="b-tabs__wrapperItemInner">
+                                    <div class="b-tree">
+                                    </div>                              
+                                </div>
+                                
+                            </div><!-- /menu -->
+
+                            <div class="b-tabs__wrapperItem" id="tabWrapper_index">
+                                <div class="b-tabs__wrapperItemInner">
+                                    <div class="b-tree"></div></div>
+                            </div>
+
+
+                            <div class="b-tabs__wrapperItem" id="tabWrapper_search">
+
+        
+
+<div class="b-search m-search__tabs" id="tabs_searchFormWrapper">
+    <form action="#" class="b-search__form">
+        <table class="b-search__layout">
+            <tr>
+                <td class="b-search__side m-search__side__input">
+                    <div class="b-search__gap">
+                        <label id="tabs_searchInput_label" for="tabs_searchInput" class="b-search__labelPlaceholder">Search</label>
+                        <input id="tabs_searchInput" type="text" value="" class="b-search__inputText" />
+                    </div>
+                </td>
+                <td class="b-search__side m-search__side__submit">
+                    <span class="b-button b-search__button">
+                        <span class="b-button__wrapper">
+                            <span class="b-button__text"></span>
+                        </span>
+                        <input type="submit" class="b-button__submit" value="Search" id="tabs_searchSubmit" />
+                    </span>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div><!-- /search -->
+<img src="Pics/i/blocks/search/loading.gif" class="b-tree__searching" id="searchProgress" alt="" />
+<div class="b-tabs__wrapperItemInner">
+
+<!-- .b-tree -->
+<div class="b-tree">
+    <!-- .b-tree__items -->
+    &#xA0;<br />&#xA0;
+    &#xA0;<br />&#xA0;
+    &#xA0;<br />&#xA0;
+    &#xA0;<br />&#xA0;
+    <!-- /.b-tree__items -->
+</div>
+<!-- /.b-tree -->
+
+
+
+                                </div>
+                            </div><!-- /wrapperItem -->
+                        </div><!-- /wrapperItems -->
+                    </div><!-- /b-tabs -->
+
+
+
+
+
+                                        </div><!-- /b-workZone__content -->
+                                    </td><!-- /workZone__nav -->
+
+
+
+                                    <td class="b-workZone__side m-workZone__side__article" id="workZone_article">
+                                        <div class="b-workZone__content" id="workZone_article__content">
+                                            <a href="#" class="b-article__presentSideNavButton" id="presentSideNavButton"><span></span></a>
+                                            <div class="b-workZone__overlay" id="workZone_article__overlay"></div>
+<div class="b-search m-search__workZone" id="searchZone">
+    <form action="#" class="b-search__form">
+        <table class="b-search__layout">
+            <tr>
+                <td class="b-search__side m-search__side__input">
+                    <div class="b-search__gap">
+                        <span class="b-interfaceIcon m-interfaceIcon__search m-interfaceIcon__search__input b-search__inputTextIcon"></span>
+                        <label id="workZone_searchInput_label" for="workZone_searchInput" class="b-search__labelPlaceholder">Search</label>
+                        <input id="workZone_searchInput" type="text" value="" class="b-search__inputText" />
+                    </div>
+                </td>
+                <td class="b-search__side m-search__side__submit">
+                    <span class="b-button b-search__button">
+                        <span class="b-button__wrapper">
+                            <span class="b-button__text"></span>
+                        </span>
+                        <input type="submit" class="b-button__submit" value="Search" id="workZone_searchSubmit" />
+                    </span>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div><!-- /search -->
+
+
+<div class="b-article" id="article">
+    <div class="b-article__preWrapper">
+        <table class="b-article__headerLayout" id="article__header">
+            <tr>
+                <td id="headerSide__nav" class="b-article__headerSide m-article__headerSide__nav">
+                    <div id="headerSide__nav__breadCrumbs" class="b-breadCrumbs">
+                        <ul class="b-breadCrumbs__items"><li class="b-breadCrumbs__item"><a href="module_2.htm" class="b-breadCrumbs__link">Notes for Modmakers 3.3</a></li>
+
+<li class="b-breadCrumbs__item"><a href="module_2_3.htm" class="b-breadCrumbs__link">Chapter 1. NIF file</a></li>
+
+<li class="b-breadCrumbs__item"><a href="module_2_3_2.htm" class="b-breadCrumbs__link">Supported by Engine</a></li>
+
+<li class="b-breadCrumbs__item"><a href="module_2_3_2_27.htm" class="b-breadCrumbs__link">NiParticle</a></li>
+
+<li class="b-breadCrumbs__item"><a href="module_2_3_2_27_3.htm" class="b-breadCrumbs__link">NiBSPArrayController</a></li>
+
+<li class="b-breadCrumbs__item">NiBSPArrayController- notes</li>
+</ul>                    </div>
+                </td>
+                <td id="headerSide__buttons" class="b-article__headerSide m-article__headerSide__buttons">
+                    <div class="b-controlButtons">
+                        <ul class="b-controlButtons__items">
+                            <li class="b-controlButtons__item m-controlButtons__item__prev"><a href="module_2_3_2_27_3.htm" class="b-controlButtons__link" title="Previous"><span class="b-controlButtons__link_icon"></span><span class="b-controlButtons__link_text">&#xa0;Previous</span></a></li>
+                            <li class="b-controlButtons__item m-controlButtons__item__next"><a href="module_2_3_2_27_3_2.htm" class="b-controlButtons__link" title="Next"><span class="b-controlButtons__link_text">Next&#xa0;</span><span class="b-controlButtons__link_icon"></span></a></li>
+                                                </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="b-article__wrapper">
+            <div class="b-article__innerWrapper" id="description_on_page_placeholder">
+            <a id="top" class="anchor"></a>
+            </div><!-- /innerWrapper -->
+        </div>
+        <script type="text/javascript">
+        //<![CDATA[
+            if (1 == 0 || is_touch_device())
+            {
+                $(".b-article__wrapper").append(
+                    $("<table></table>")
+                    .addClass("b-article__footerLayout")
+                    .prop("id", "article__footer")
+                    .append(
+                        $("<tr></tr>").append(
+                            $("<td></td>")
+                            .addClass("b-article__headerSide m-article__headerSide__nav")
+                        )
+                        .append(
+                            $("<td></td>")
+                            .addClass("b-article__headerSide m-article__headerSide__buttons")
+                            .append(
+                                $("<div></div>").addClass("b-controlButtons")
+                                .html($("<ul></ul>").addClass("b-controlButtons__items").html("    <li class=\"b-controlButtons__item m-controlButtons__item__prev\"><a href=\"module_2_3_2_27_3.htm\" class=\"b-controlButtons__link\" title=\"Previous\"><span class=\"b-controlButtons__link_icon\"></span><span class=\"b-controlButtons__link_text\">&#xa0;Previous</span></a></li>\n    <li class=\"b-controlButtons__item m-controlButtons__item__next\"><a href=\"module_2_3_2_27_3_2.htm\" class=\"b-controlButtons__link\" title=\"Next\"><span class=\"b-controlButtons__link_text\">Next&#xa0;</span><span class=\"b-controlButtons__link_icon\"></span></a></li>\n"))
+                            )
+                        )
+                    )
+                );
+            }
+        //]]>
+        </script>
+    </div>
+</div>
+
+
+
+                                        </div>
+                                    </td><!-- /workZone__article -->
+                                </tr>
+                            </table>
+                        </div><!-- /workZone -->
+
+                    </td><!-- /pageContentMiddle -->
+                    <td class="b-pageContent__side m-pageContent__side__right" id="pageContentRight"></td>
+                        </tr>
+                    </table> <!-- /internal_wrapper -->
+                    </td>
+                </tr>
+                <tr class="b-pageContent__row m-pageContent__row__footer" id="pageContentFooter">
+                    <td class="b-pageContent__side m-pageContent__side__footer">
+                        <script type="text/javascript">
+                        //<![CDATA[
+                            if (1 == 1 && !is_touch_device())
+                                $( "#pageContentFooter" ).addClass("hidden");
+                        //]]>
+                        </script>
+                                            </td>
+                </tr>
+            </table>
+        </div><!-- /pageContent -->
+
+</div><!-- /pageLayout -->
+<div id="hiddenContent" class="hiddenContent">
+    <noscript>
+    <div>To properly display this page you need a browser with JavaScript support.</div>
+    </noscript>
+                <div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>NiBSPArrayController- notes</strong></h1></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="local_link" href="module_2_3_2_27_3.htm"><span class="de_0F609BFBFC">NiBSPArrayController</span></a></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>Примечание.</strong></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">В файле может быть только несколько контроллеров этого типа!<br />Одни работают с поверхностями, другие с иерархией объектов.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Однако, такие файлы лучше создавать в нифскопе, копируя частицы и контроллеры.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Файл с несколькими контроллерами полученный непосредственно из 3д МАХа приводил игру и редактор к вылету...</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_823826CA2C">Случайный баг (?).</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_823826CA2C">Предположение (!) - была нарушена иерархия объектов.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_823826CA2C">Частицы оказались выше своего эмиттера.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>Критически важно размещать эмиттер выше частиц если использован флаг 24!<br /></strong>Для флага 8 это не важно.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Но если в качестве эмиттера использовалась поверхность шейпа, она должна быть выше самих частиц!</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="526" height="140" class=" de_780D01ADE8" src="Pics/drex_module_2_3_2_27_3_1_custom.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Правильный порядок в файле!<br />Tri Plane01 (3) работает эмиттером для частиц с NiBSPArrayController (9) и размещена выше в списке.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>Примечание. </strong><span class="de_823826CA2C">В </span><a class="local_link" href="module_2_3_1_5_1_2.htm"><span class="de_0F609BFBFC">общих настройках контроллера.</span></a></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Именно флаг управления запуском анимации отвечает и за метод работы этого контроллера!</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="403" height="112" class=" de_780D01ADE8" src="Pics/drex_module_2_3_2_27_3_1_custom_2.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>ArrayType - режим работы этого контроллера.</strong></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">At_vertices - наиболее эффективен при использовании с шейпами в качестве эмиттеров. Флаги 24, 26, 28.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">At_nodes - создает цепочку эмиттеров из иерархии нод. Возможно вложенные шейпы также участвуют (?). Флаги 8, 10, 12.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_823826CA2C">Других режимов получить не удалось. Ни флагами в нифскопе, ни экспортом из 3д МАХа.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_823826CA2C">Т.е. есть только два доступных режима.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>Примечание.</strong></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Режим Start at ALL vertices дает флаг 24.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Все прочие настройки зон генерации частиц Parray в 3д МАХ дают флаг работы этого контроллера 8.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>Примечание.</strong></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">МАХ устанавливает в качестве эмиттера (при Start at ALL vertices) не шейп, а ноду!<br />Что и не позволяло получить правильные настройки в прежние годы.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Т.е. сразу после экспорта модель следует править.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Сменив цели и проверив иерархию!</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">- шейп вместо ноды в слоте Emitter</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">- шейп выше частиц по списку объектов в ниф файле. </div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>Примечание.</strong></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">По видимости не создает клоны частиц для первой, предпоследней и последней костей в иерархии.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Т.е. для этих объектов в цепочке, система частиц не клонируется.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Покрайней мере так можно полагать исходя из имеющихся данных.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="156" height="238" class=" de_780D01ADE8" src="Pics/drex_module_2_3_2_27_3_1_custom_3.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_823826CA2C">Bone01 работает эмиттером, все остальные объекты в иерархии становятся вспомогательными эмиттерами (?).</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>Примечание</strong></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Тесты разных флагов:</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><table class="de_tbl_943 detbl" style="width: 820px; height: 62; margin-left: 0; margin-right: auto;">
+<col style="width: 100px;" class="de_col_1_158" />
+<col style="width: 100px;" class="de_col_2_151" />
+<col style="width: 276px;" class="de_col_3_167" />
+<col style="width: 11px;" class="de_col_4_172" />
+<col style="width: 182px;" class="de_col_5_145" />
+<col style="width: 151px;" class="de_col_6_150" />
+<tr style="height: 62px;">
+<td class="de_td_158" style = "padding: 2px; padding-bottom: 1px; border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-top-style: solid; border-top-width: 1px; border-top-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000;  width: 100px; vertical-align: top;" colspan = "1" rowspan = "1" >
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="152" height="18" class=" de_780D01ADE8" src="Pics/drex_module_2_3_2_27_3_1_custom_4.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="140" height="32" class=" de_780D01ADE8" src="Pics/drex_module_2_3_2_27_3_1_custom_5.png"/></div>
+</td><td class="de_td_151" style = "padding: 2px; padding-bottom: 1px; border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-top-style: solid; border-top-width: 1px; border-top-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000;  width: 100px; vertical-align: top;" colspan = "1" rowspan = "1" >
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="145" height="18" class=" de_780D01ADE8" src="Pics/drex_module_2_3_2_27_3_1_custom_6.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="137" height="29" class=" de_780D01ADE8" src="Pics/drex_module_2_3_2_27_3_1_custom_7.png"/></div>
+</td><td class="de_td_167" style = "padding: 2px; padding-bottom: 1px; border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-top-style: solid; border-top-width: 1px; border-top-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000;  width: 276px; vertical-align: top;" colspan = "1" rowspan = "1" >
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="161" height="20" class=" de_780D01ADE8" src="Pics/drex_module_2_3_2_27_3_1_custom_8.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="141" height="31" class=" de_780D01ADE8" src="Pics/drex_module_2_3_2_27_3_1_custom_9.png"/></div>
+</td><td class="de_td_172" style = "padding: 2px; padding-bottom: 1px; border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-top-style: solid; border-top-width: 1px; border-top-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000;  width: 11px; vertical-align: top;" colspan = "1" rowspan = "1" >
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="166" height="19" class=" de_780D01ADE8" src="Pics/drex_module_2_3_2_27_3_1_custom_10.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="137" height="33" class=" de_780D01ADE8" src="Pics/drex_module_2_3_2_27_3_1_custom_11.png"/></div>
+</td><td class="de_td_145" style = "padding: 2px; padding-bottom: 1px; border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-top-style: solid; border-top-width: 1px; border-top-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000;  width: 182px; vertical-align: top;" colspan = "1" rowspan = "1" >
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="125" height="15" class=" de_780D01ADE8" src="Pics/drex_module_2_3_2_27_3_1_custom_12.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="139" height="34" class=" de_780D01ADE8" src="Pics/drex_module_2_3_2_27_3_1_custom_13.png"/></div>
+</td><td class="de_td_150" style = "padding: 2px; padding-bottom: 1px; border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-top-style: solid; border-top-width: 1px; border-top-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000;  width: 151px; vertical-align: top;" colspan = "1" rowspan = "1" >
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="129" height="19" class=" de_780D01ADE8" src="Pics/drex_module_2_3_2_27_3_1_custom_14.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="144" height="36" class=" de_780D01ADE8" src="Pics/drex_module_2_3_2_27_3_1_custom_15.png"/></div>
+</td></tr><tr style="height: 0px;">
+<td class="de_td_158" style = "padding: 2px; padding-bottom: 1px; border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-top-style: solid; border-top-width: 1px; border-top-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000;  width: 100px; vertical-align: top;" colspan = "1" rowspan = "1" >
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">флаг 8</div>
+</td><td class="de_td_151" style = "padding: 2px; padding-bottom: 1px; border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-top-style: solid; border-top-width: 1px; border-top-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000;  width: 100px; vertical-align: top;" colspan = "1" rowspan = "1" >
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">флаг 10.</div>
+</td><td class="de_td_167" style = "padding: 2px; padding-bottom: 1px; border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-top-style: solid; border-top-width: 1px; border-top-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000;  width: 276px; vertical-align: top;" colspan = "1" rowspan = "1" >
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">флаг 24</div>
+</td><td class="de_td_172" style = "padding: 2px; padding-bottom: 1px; border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-top-style: solid; border-top-width: 1px; border-top-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000;  width: 11px; vertical-align: top;" colspan = "1" rowspan = "1" >
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">флаг 26</div>
+</td><td class="de_td_145" style = "padding: 2px; padding-bottom: 1px; border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-top-style: solid; border-top-width: 1px; border-top-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000;  width: 182px; vertical-align: top;" colspan = "1" rowspan = "1" >
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">флаг 42</div>
+</td><td class="de_td_150" style = "padding: 2px; padding-bottom: 1px; border-left-style: solid; border-left-width: 1px; border-left-color: #000000; border-right-style: solid; border-right-width: 1px; border-right-color: #000000; border-top-style: solid; border-top-width: 1px; border-top-color: #000000; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000;  width: 151px; vertical-align: top;" colspan = "1" rowspan = "1" >
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">флаг 56</div>
+</td></tr></table></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">8 -&#160; флаг совмещающий <a class="local_link" href="module_2_10_3_3_8.htm"><span class="de_2B94C39861"> метод старта</span></a> анимации и метод эмиттинга. В данном случае, по иерархии нод.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">10 - позволяет штатно запустить реверс анимации частиц. Можно использовать на иерархии объектов.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">12 - clamp (одноразовый) режим старта частиц для режима &quot;по иерархии&quot; нод.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">16 - анимация выключена. </div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">24 - флаг включающий запуск частиц от каждого вертекса поверхности в обычном режиме CYCLE (ака Loop).</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">26 - реверс анимации частиц для режима At_vertices.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">28 - аналог 12 флага для режима At_vertices.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">42 и 56 - тестовые флаги. Ничего, кроме типа работы анимации, не меняют. </div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Да, в <a class="local_link" href="module_2_9_4.htm"><span class="de_2B94C39861">SSG</span></a>, появляется строка с непонятным значением, но это &quot;глюк&quot; (скорее всего). </div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">В игре анимация проигрывается как для обычных флагов 8 и 10.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Флаги 32, 128 - ничего не показали.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_823826CA2C">Что логично, т.к. анимация помечена как выключенная.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="190" height="143" class=" de_780D01ADE8" src="Pics/drex_module_2_3_2_27_3_1_custom_16.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>Примечание.</strong></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_823826CA2C">Актуально для флага 24.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Возможно NiBSPArrayController плохо работает со скиненными поверхностями.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Смещаются точки появления частиц.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Покрайней мере, было проведен быстрый тест с Ужасом Клана.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Да, работает, но не так как хотелось бы.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Возможно дело в настройках частиц, а не в скининге, как таковом.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Нужно больше тестов(С)</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>Примечание.</strong></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_823826CA2C">Для флага 24.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Может работать с <a class="local_link" href="module_2_3_2_18.htm"><span class="de_2B94C39861">морфированными</span></a> объектами!</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>Примечание.</strong></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Этот контроллер частиц можно использовать с невидимыми анимированными поверхностями.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Т.е. создать в МАХе некую сложную поверхность меняющую свой вид под действием <span class="de_51752156DC">морфинга</span>.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">А затем указать в качестве <a class="local_link" href="module_2_3_2_27_13.htm"><span class="de_2B94C39861">эмиттер</span></a>а использовав не ней <a class="local_link" href="module_2_3_2_25.htm"><span class="de_2B94C39861">материал</span></a> с полной прозрачностью.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Что позволит создавать самые замысловатые формы движения частиц.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>Примечание.</strong></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Флаг 10 (42) может давать позитивные результаты.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Заставляя частицы &quot;мигать&quot;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Словно огонь вспыхивает а потом быстро гаснет.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Это не только для этого контроллера, это примечание актуально и для<a class="local_link" href="module_2_3_2_27_7_2.htm"><span class="de_2B94C39861"> NiParticleSystemController</span></a>.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>Примечание.</strong></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">По видимости, хорошо работает только с прямо указанной поверхностью.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Т.е. если указать в качестве эмиттера некоторый шейп при флаге 24, все работает корректно.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Частицы рождаются из его вертексов.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Но, если указать ноду (с несколькими шейпами), при том же флаге 24, работоспособность сохраняется только для одного шейпа.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Либо слетает вовсе.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>Примечание.</strong></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&quot;Внезапно&quot; обнаружилась еще одна возможность этого контроллера.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">А именно использовать в качестве эмиттеров не только поверхности и цепочки нод, но и другие частицы!</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Т.е. можно в слоте Emitter указать номер любой другой системы частиц (NiAutoNormalParticles, NiRotatingParticles, или NiParticles).</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Тогда, все частицы тех систем смогут работать эмиттерами!</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Нифскоп никак это не отображает.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Но в игре это работает...</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>Примечание.</strong></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">so if emit mesh has lot of vertexes particle emit will be one of the vertexes randomly. If you use a mesh with lot of vertexes, it won't mean lot of particles, only emit position will be randomly selected from the vertexes i guess. So i got to increase particle number a lot to use all the mesh vertexes</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Т.е. чем больше вершин, тем плотнее должен быть поток частиц.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Emit rate не ниже 100 - 300.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Уточнение, в идеале, кол-во Vertexes у систем частиц должно быть равным!</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Если у первой, работающей в качестве эмиттера системы частиц - их больше, будут возникать сгустки частиц у второй системы!</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">С другой стороны, это также можно использовать.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">См. скриншоты внизу<a class="local_link" href="module_2_3_2_27_3_2.htm"><span class="de_2B94C39861"> страницы.</span></a></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>Примечание.</strong></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>К сожалению для решения этой задачи НЕЛЬЗЯ использовать общую </strong><a class="local_link" href="module_2_3_2_27_12_1.htm"><span class="de_2B94C39861">ParticlesData</span></a>!<br />Такой вариант стабильно приводит к КТД, хотя в других случаях показывает себя позитивно.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Но ничто не мешает указать в обеих <span class="de_51752156DC">ParticlesData</span>&#160; одинаковое кол-во частиц, как в целом, так и активных в момент времени.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Либо скопировать <span class="de_51752156DC">ParticlesData первой системы частиц, вставить в конец файла и, указать этот номер второй систем частиц.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Это гарантированно установит базовое число частиц равным для всех систем в сцене.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Затем останется только удалить старые <span class="de_51752156DC">ParticlesData .</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Также, следует синхронизировать значение Emit Rate для обоих <a class="local_link" href="module_2_3_2_27_3.htm"><span class="de_2B94C39861">контроллеров</span></a> частиц!</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="546" height="19" class=" de_780D01ADE8" src="Pics/drex_module_2_3_2_27_3_1_custom_17.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>Получается примерно такая схема:</strong></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><img  alt="" style="border: solid 0px;  " width="650" height="168" class=" de_780D01ADE8" src="Pics/drex_module_2_3_2_27_3_1_custom_18.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">- корень файла обычная нода (0).</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">- все частицы и их <a class="local_link" href="module_2_3_2_27_13.htm"><span class="de_2B94C39861">эмиттер </span></a>убраны в NiBSParticleNode с флагом 170. (1)</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">- первый эмиттер (здесь) это шейп (9) помещенный в ноду (2) с контроллером движения.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">- этот эмиттер находится по списку выше, чем его частицы!</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">- сами частицы находятся в другой ноде (12).</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">- при этом, частицы (13) используют в качестве эмиттера шейп 9.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">- другие частицы (21) используют в качестве эмиттера частицы 13.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">- которые находятся также выше их по списку! Хотя и в одной с ними ноде.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">- у каждой системы частиц свой уникальный номер NiParticlesData, но с одинаковыми настройками.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">- также, у систем частиц, равные настройки Emit Rate в их контроллерах.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">- отдельный шейп (18) находится вне ноды частиц и нужен только для перемещения модели в редакторе.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Т.к. NiBSParticleNode имеют проблемы с выбором и передвижением.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">NiBSParticleNode также выполняет функции <a class="local_link" href="module_2_3_2_9.htm"><span class="de_2B94C39861">анимационной ноды</span></a>, отвечая за проигрывания анимаций и создания хвоста частицам.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>Примечание.</strong></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Нифтулз отображает корректно только первый фрейм. Размещая частицы во всех объектах иерархии.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Для режима эмиттинга с вертексов - аналогично.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Т.е. составить общее представление вполне возможно.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="local_link" href="module_2_9_6.htm"><span class="de_2B94C39861">СкенеВиювер</span></a> - не открывает файлы с этим контроллером! Т.к. не понимает его от слова совсем.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">ТЕС КС - показывает частицы в правильных позициях после смещения объекта в сцене.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_A0C1A69777"><strong>Примечание!</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>- Некорректно работает в одежде (броне, бодипартах) НПС!<br /></strong><span class="de_823826CA2C">Частицы остаются в стартовом положении НПС и не следуют за своей целью просто застывая в сцене.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_823826CA2C">Либо ограниченно смещаясь и вновь возвращаясь к исходной позиции, не меняя своего положения.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_823826CA2C">Достаточное странный результат получается по виду.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_823826CA2C">Связано сие, с организацией файлов НПС, где анимации берутся из одного файла, а броня берется из другого.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_823826CA2C">Верно для всех режимов! Что для &quot;at vertex&quot;, так и для &quot;on chain&quot;.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">- Также, есть проблемы, если выбрать режим &quot;at vertex&quot; и для Существ.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_823826CA2C">Поведение немного иное, но результат схожий - не работает, так как хотелось бы!</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_823826CA2C">Они не принимают правильные положения и, похоже стоят в исходной позе существа в ниф файле.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_823826CA2C">т.е. не смещаются вместе с движением существа.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_823826CA2C">В режиме &quot;on chain&quot; работает нормально, да.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">- Для существ использующих файлы базовой анимации (bipedal) могут возникать проблемы и для&#160; &quot;on chain&quot; режима!</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_823826CA2C">Т.е. эмиттинг по цепочек, нормально работает только для существ со своими уникальными файлами анимаций.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">- В активаторах в виде анимированной поверхности, все работает как следует.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Оба режима т.е.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">- Возможно проблема связана со <a class="local_link" href="module_2_3_2_38.htm"><span class="de_2B94C39861">скинингом </span></a>модели.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Т.е. <a class="local_link" href="module_2_3_2_18.htm"><span class="de_2B94C39861">морфированные</span></a> модели в основном работают стабильно.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>Примечание.</strong></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><strong>С одного форума.</strong></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Greatness7</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">2-Reverse</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">4-Clamp</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">8-Active</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">16-At Vertices</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">they can be mixed</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">e.g. 12 is 4+8, Active+Clamp</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Mr.007</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">? flag 16-animation is disabled.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Greatness7</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">16 changes from AT_NODES to AT_VERTICES</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Mr.007</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Yes! yes! is it!</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">Greatness7Сегодня, в 8:41</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">without 8 (Active), animations will be inactive, e.g. disabled</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">24 == 8+16, Active+AtVertices</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_51752156DC"><strong>Скриншоты.</strong></span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_51752156DC">См. </span><a class="local_link" href="module_2_3_2_27_3_2.htm"><span class="de_2B94C39861">здесь</span></a><span class="de_51752156DC">.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><hr style="width: 100%; height: 5px; text-align: center; margin-left: auto; margin-right: auto; border:none; background-color:#0012ff; color: #0012ff; clear:none;" /></div>
+</div>                                    			
+                			</div>
+</body>
+</html>
